@@ -10,3 +10,6 @@
 my_VGG16.h5
 机器学习实战_课后练习/models/my_ResNet50.ckpt
 机器学习实战_课后练习/PTmodel
+机器学习实战_课后练习/tfhub_cache
+机器学习实战_课后练习/models/Pytorch
+机器学习实战_课后练习/annotated-transformer-master
