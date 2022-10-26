@@ -1,17 +1,17 @@
 digraph Tree {
-node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
-edge [fontname=helvetica] ;
-0 [label="X[0] <= 0.14\nmse = 0.107\nsamples = 100\nvalue = 0.354", fillcolor="#f8dfcc"] ;
-1 [label="X[0] <= 0.064\nmse = 0.026\nsamples = 18\nvalue = 0.78", fillcolor="#ea975c"] ;
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="X[0] <= 0.14\nsquared_error = 0.107\nsamples = 100\nvalue = 0.354", fillcolor="#f8dfcc"] ;
+1 [label="X[0] <= 0.064\nsquared_error = 0.026\nsamples = 18\nvalue = 0.78", fillcolor="#ea975c"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="mse = 0.009\nsamples = 8\nvalue = 0.913", fillcolor="#e58139"] ;
+2 [label="squared_error = 0.009\nsamples = 8\nvalue = 0.913", fillcolor="#e58139"] ;
 1 -> 2 ;
-3 [label="mse = 0.013\nsamples = 10\nvalue = 0.674", fillcolor="#eda978"] ;
+3 [label="squared_error = 0.013\nsamples = 10\nvalue = 0.674", fillcolor="#eda978"] ;
 1 -> 3 ;
-4 [label="X[0] <= 0.822\nmse = 0.077\nsamples = 82\nvalue = 0.26", fillcolor="#fceee5"] ;
+4 [label="X[0] <= 0.822\nsquared_error = 0.077\nsamples = 82\nvalue = 0.26", fillcolor="#fceee5"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="mse = 0.033\nsamples = 67\nvalue = 0.16", fillcolor="#ffffff"] ;
+5 [label="squared_error = 0.033\nsamples = 67\nvalue = 0.16", fillcolor="#ffffff"] ;
 4 -> 5 ;
-6 [label="mse = 0.025\nsamples = 15\nvalue = 0.707", fillcolor="#eca46f"] ;
+6 [label="squared_error = 0.025\nsamples = 15\nvalue = 0.707", fillcolor="#eca46f"] ;
 4 -> 6 ;
 }
